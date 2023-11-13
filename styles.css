@@ -1,0 +1,53 @@
+#main{
+  background-color: #05111e;
+  width: 100%;
+  font-family: 'Tahoma';
+  color: white;
+}
+body{
+  margin: 0;
+}
+#title-image{
+  display: block;
+  width: 65%;
+  margin: 0 auto 0 auto;
+}
+#title-image, h1{
+  margin-bottom: 0;
+}
+#img-div{
+  width: 100%;
+  margin-left: 0;
+  margin-top: 0;
+  text-align: center;
+}
+.border{
+  border: 1px solid yellow;
+  margin: 5px auto 15px auto;
+  width: 98%;
+  border-image: linear-gradient(to right, #05111e, yellow, #05111e) 1;
+  border-radius: 5px;
+}
+#image{
+  max-width: 1920px;
+  max-height: 1080px;
+  margin: 0 auto 0 auto;
+  width: 90%;
+  display: block;
+  border-radius: 10px;
+  object-fit: contain;
+}
+#img-caption{
+  margin-top: 5px;
+}
+h2{
+  text-align: center;
+}
+.list-container{
+  text-align: center;
+}
+
+#info{
+  display: inline-block;
+  text-align: left;
+}
