@@ -6,6 +6,7 @@
 }
 body{
   margin: 0;
+  width: 100%;
 }
 #title-image{
   display: block;
@@ -40,7 +41,7 @@ body{
 #img-caption{
   margin-top: 5px;
 }
-h2{
+h2, h3{
   text-align: center;
 }
 .list-container{
@@ -51,3 +52,24 @@ h2{
   display: inline-block;
   text-align: left;
 }
+
+.class-icon{
+  max-width: 128px;
+  max-height: 128px;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.class-info{
+  display: inline-block;
+  text-align: left;
+}
+
+.class-container-mage{
+  width: 90%;
+  height: 150px;
+  border-bottom: 1px solid red;
+  border-image: linear-gradient( to right, #05111e, #b424b4, #05111e ) 1;
+}
+
+
