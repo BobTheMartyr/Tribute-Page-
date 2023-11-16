@@ -16,8 +16,10 @@ body{
 #title-image, h1{
   margin-bottom: 0;
 }
+
 #img-div{
   width: 100%;
+  max-width: 100%;
   margin-left: 0;
   margin-top: 0;
   text-align: center;
@@ -30,13 +32,13 @@ body{
   border-radius: 5px;
 }
 #image{
-  max-width: 1920px;
   max-height: 1080px;
   margin: 0 auto 0 auto;
   width: 90%;
   display: block;
   border-radius: 10px;
   object-fit: contain;
+  max-width: 100%;
 }
 #img-caption{
   margin-top: 5px;
@@ -58,18 +60,72 @@ h2, h3{
   max-height: 128px;
   margin-top: 15px;
   display: inline-block;
+  margin: auto
 }
 
 .class-info{
   display: inline-block;
   text-align: left;
+  list-style: none;
+  margin: auto
 }
 
 .class-container-mage{
+  margin: auto;
   width: 90%;
   height: 150px;
   border-bottom: 1px solid red;
   border-image: linear-gradient( to right, #05111e, #b424b4, #05111e ) 1;
+  display: flex;
+  align-items: center;
 }
 
+.god-image{
+  max-height: 128px;
+  margin: auto
+}
 
+.class-container-warrior{
+  margin: auto;
+  width: 90%;
+  height: 150px;
+  border-bottom: 1px solid red;
+  border-image: linear-gradient( to right, #05111e, #e34022, #05111e ) 1;
+  display: flex;
+  align-items: center;
+}
+
+.class-container-assassin{
+  margin: auto;
+  width: 90%;
+  height: 150px;
+  border-bottom: 1px solid red;
+  border-image: linear-gradient( to right, #05111e, #fcc708, #05111e ) 1;
+  display: flex;
+  align-items: center;
+}
+
+.class-container-guardian{
+  margin: auto;
+  width: 90%;
+  height: 150px;
+  border-bottom: 1px solid red;
+  border-image: linear-gradient( to right, #05111e, #bac122, #05111e ) 1;
+  display: flex;
+  align-items: center;
+}
+
+.class-container-hunter{
+  margin: auto;
+  width: 90%;
+  height: 150px;
+  border-bottom: 1px solid red;
+  border-image: linear-gradient( to right, #05111e, #fa8a12, #05111e ) 1;
+  display: flex;
+  align-items: center;
+}
+
+#tribute-link{
+  margin: auto;
+  text-align: center;
+}
